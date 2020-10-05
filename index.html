@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <title>Platzi</title> 
+      </head>
+   <body data-spy="scroll" data-target="#navbar" data-offset="76">
+   <!--HEADER-->
+      <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+         <div class="container">
+            <a class="navbar-brand" href="#">
+               <img src="imagenes/NBA_logo.png" alt="Logo NBA"> NBA FINALS
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar">
+               <ul class="navbar-nav ml-auto"><!--mr-auto pega el contenido a la izquierda, ml a la derecha-->
+                   <li class="nav-item">
+                     <a class="nav-link" href="#main">Finales 2020</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#players">Jugadores</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#nba-finals">Finales</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#join-us">Trabaja con nosotros</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Games
+                     </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                     <a class="dropdown-item" href="#" data-toggle="modal" data-target="#modalGame1">Game 1</a>
+                     <a class="dropdown-item" href="#" data-toggle="modal" data-target="#modalGame2">Game 2</a>
+                     <a class="dropdown-item" href="#" data-toggle="modal" data-target="#modalGame3">Game 3</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link focus-text" href="#" data-toggle="modal" data-target="#modalCompra">Comprar Tickets</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+   <!--/HEADER-->
+   <main id="main">
+      <div id="carousel" class="carousel slide" data-ride="carousel" data-pause="false">
+         <div class="carousel-inner">
+            <div class="carousel-item active" data-interval="10000">
+               <img class="d-block w-100" src="imagenes/nba1.jpg" alt="NBA 1">
+            </div>
+            <div class="carousel-item" data-interval="2000">
+               <img class="d-block w-100" src="imagenes/nba2.jpg" alt="NBA 2">
+            </div>
+            <div class="carousel-item">
+               <img class="d-block w-100" src="imagenes/nba3.jpg" alt="NBA 3">
+            </div>
+            <div class="overlay">
+               <div class="container">
+                  <div class="row align-items-center">
+                     <div class="col-md-6 offset-md-6 text-center text-md-right">
+                        <h1>NBA FINALS 2020</h1>
+                        <p class="d-none d-md-block">
+                           Las Finales de la NBA nos traen en este 2020 a Los Angeles Lakers y los Miami Heat, Lakers llegan tras una comoda victoria ante los Denver Nuggets de Murray y Joker, por la otra conferencia tenemos a los Heat de Buttler que viene de vencer 2 aspirantes al titulo como lo eran Clippers y Bucks, ¿Podran los Lakers de Lebron llevarse el titulo a casa, o sera Buttler quien guie al Heat a la cima?
+                        </p>
+                        <a href="" class="btn btn-outline-light">Quiero asistir a las finales</a>
+                        <button class="btn btn-success" data-toggle="modal" data-target="#modalCompra">Comprar Tickets</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </main>
+
+   <section id="players" class="mt-4">
+      <div class="container">
+         <div class="row">
+            <div class="col text-center text-uppercase">
+               <small>Conoce a los</small>
+               <h2>Jugadores</h2>
+            </div>
+         </div>
+      </div>
+      <div class="container">
+         <div class="row">
+            <div class="col-s-12 col-md-6 col-lg-4 text-center mb-4">
+               <div class="card">
+                  <img src="imagenes/lebron.jpg" class="card-img-top" alt="Lebron James">
+                  <div class="badges">
+                     <span class="badge badge-warning">Lakers</span>
+                     <span class="badge badge-primary">Base</span>
+                     <span class="badge badge-dark">#23</span>
+                  </div>
+                  <div class="card-body">
+                     <h5 class="card-title">Lebron James</h5>
+                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-s-12 col-md-6 col-lg-4 text-center mb-4">
+               <div class="card">
+                  <img src="imagenes/butler.jpg" class="card-img-top" alt="Jimmy Butler">
+                  <div class="badges">
+                     <span class="badge badge-danger">Bulls</span>
+                     <span class="badge badge-dark">Escolta</span>
+                     <span class="badge badge-light">#22</span>
+                  </div>
+                  <div class="card-body">
+                     <h5 class="card-title">Jimmy Butler</h5>
+                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-s-12 col-md-6 col-lg-4 text-center mb-4">
+               <div class="card">
+                  <img src="imagenes/kuzma.jpg" class="card-img-top" alt="Kyle Kuzma">
+                  <div class="badges">
+                     <span class="badge badge-warning">Lakers</span>
+                     <span class="badge badge-primary">Alero</span>
+                     <span class="badge badge-dark">#20</span>
+                  </div>
+                  <div class="card-body">
+                     <h5 class="card-title">Kyle Kuzma</h5>
+                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-s-12 col-md-6 col-lg-4 text-center mb-4">
+               <div class="card">
+                  <img src="imagenes/adebayo.jpg" class="card-img-top" alt="Adebayo">
+                  <div class="badges">
+                     <span class="badge badge-danger">Bulls</span>
+                     <span class="badge badge-dark">Pivot</span>
+                     <span class="badge badge-light">#13</span>
+                  </div>
+                  <div class="card-body">
+                     <h5 class="card-title">Adebayo</h5>
+                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-s-12 col-md-6 col-lg-4 text-center mb-4">
+               <div class="card">
+                  <img src="imagenes/davis.jpg" class="card-img-top" alt="Anthony davis">
+                  <div class="badges">
+                     <span class="badge badge-warning">Lakers</span>
+                     <span class="badge badge-primary">Ala-Pivot</span>
+                     <span class="badge badge-dark">#3</span>
+                  </div>
+                  <div class="card-body">
+                     <h5 class="card-title">Anthony davis</h5>
+                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-s-12 col-md-6 col-lg-4 text-center mb-4">
+               <div class="card">
+                  <img src="imagenes/dragic.jpg" class="card-img-top" alt="Goran Dragic">
+                  <div class="badges">
+                     <span class="badge badge-danger">Bulls</span>
+                     <span class="badge badge-dark">Alero</span>
+                     <span class="badge badge-light">#7</span>
+                  </div>
+                  <div class="card-body">
+                     <h5 class="card-title">Goran Dragic</h5>
+                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+               </div>
+            </div>           
+         </div>
+      </div>
+   </section>
+
+   <section id="nba-finals">
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-md-12 col-lg-6 pr-0 pl-0">
+               <img class="pl-0 pr-0" src="imagenes/playOFF.jpg">
+            </div>
+            <div class="col-md-12 col-lg-6 pt-4 pb-4">
+               <h2>NBA FINALS</h2>
+               <P>
+                  Las Finales de la NBA (NBA Finals) son la serie de partidos que deciden el título de campeón de la NBA. En ellas, se enfrentan el campeón de la Conferencia Este, contra el de la Conferencia Oeste. Se celebran desde la primera temporada de la NBA, entonces denominada BAA, en 1947.<br>
+                  A la conclusión de las Finales, el equipo campeón recibe el Trofeo Larry O'Brien (desde 1946 hasta 1977 recibían el Trofeo Walter A. Brown). Desde 1985, las Finales fueron determinadas en un formato al mejor de siete partidos 
+               </P>
+               <a class="btn btn-outline-light" href="https://es.wikipedia.org/wiki/Anexo:Finales_de_la_NBA">Conoce más</a>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section id="join-us" class="pt-4 pb-4">
+      <div class="container">
+         <div class="row">
+            <div class="col text-center">
+                <small>Trabaja con</small>
+                <h2>Nosotros</h2>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+               <form>
+                  <div class="form-row">
+                     <div class="form-group col-12 col-md-6">
+                        <input type="text" class="form-control" placeholder="Nombre">
+                     </div>
+                     <div class="form-group col-12 col-md-6">
+                        <input type="text" class="form-control" placeholder="Apellido">
+                     </div>
+                  </div>
+                  <div class="form-row">
+                     <div class="form-group col">
+                        <textarea name="text"  class="form-control form-control-lg" placeholder="Cuentanos algo sobre ti">                          
+                        </textarea> 
+                        <small class="form-text text-muted">Recuerda mencionar quien es tu candidato al titulo</small>
+                     </div>
+                  </div>
+                  <div class="form-row">
+                     <div class="col">
+                        <button class="btn btn-success btn-block">Enviar</button>
+                     </div>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <footer class="pb-4 pt-4">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-12 col-lg">
+            <a href="#">Preguntas Frecuentes</a>
+          </div>
+          <div class="col-12 col-lg">
+            <a href="#">Contactenos</a>
+          </div>
+          <div class="col-12 col-lg">
+            <a href="#">Terminos y Condiciones</a>
+          </div>
+          <div class="col-12 col-lg">
+            <a href="#">Prensa</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal" id="modalCompra" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+         <div class="modal-content">
+            <div class="modal-header">
+               <h5 class="modal-title">Comprar tickets</h5>
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+               </button>
+            </div>
+            <div class="modal-body">
+               <form>
+                  <div class="form-row">
+                     <div class="form-group col">
+                        <div class="input-group">
+                           <div class="input-group-prepend">
+                              <span class="input-group-text">@</span>
+                            </div>
+                           <input type="text" class="form-control rounded-right" placeholder="Digite su e-mail" required>
+                        </div>
+                     </div>
+                  </div>
+               </form>
+               <div class="alert alert-info" role="alert">
+                  Enviaremos un e-mail de confimacion
+               </div>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-success">Comprar</button>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div class="modal" id="modalGame1" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+         <div class="modal-content">
+            <div class="modal-header">
+               <h5 class="modal-title">Game 1</h5>
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+               </button>
+            </div>
+            <div class="modal-body">
+               <iframe width="100%" height="100%" src="https://www.youtube.com/embed/B1lhRZpTTd4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               <div class="alert alert-info" role="alert">
+                  Disfruta el Resumen del primer juego
+               </div>
+            </div>
+            <div class="modal-footer">
+               <button type="button" class="btn btn-secondary" data-dismiss="modal">Volver Atrás</button>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div class="modal" id="modalGame2" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+         <div class="modal-content">
+            <div class="modal-header">
+               <h5 class="modal-title">Game 2</h5>
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+               </button>
+            </div>
+            <div class="modal-body">
+               <iframe width="100%" height="100%" src="https://www.youtube.com/embed/MonFqZrZvU8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               <div class="alert alert-info" role="alert">
+                  Disfruta el Resumen del segundo juego
+               </div>
+            </div>
+            <div class="modal-footer">
+               <button type="button" class="btn btn-secondary" data-dismiss="modal">Volver Atrás</button>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div class="modal" id="modalGame3" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+         <div class="modal-content">
+            <div class="modal-header">
+               <h5 class="modal-title">Game 3</h5>
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+               </button>
+            </div>
+            <div class="modal-body">
+               <iframe width="100%" height="100%" src="https://www.youtube.com/embed/mWQeB6GZ-CE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               <div class="alert alert-info" role="alert">
+                  Disfruta el Resumen del tercer juego
+               </div>
+            </div>
+            <div class="modal-footer">
+               <button type="button" class="btn btn-secondary" data-dismiss="modal">Volver Atrás</button>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
